@@ -13,3 +13,37 @@ Research, googling, experimenting until I found my answers.
 This article will go deep on pixels and accessibility. I hope you will enjoy it: 
 
 https://www.24a11y.com/2019/pixels-vs-relative-units-in-css-why-its-still-a-big-deal/
+
+/************************************************************************************/
+/* Custom properties/variables  */
+:root {
+  --main-xxxx: #------;
+  --main-xxxx: #------;
+  --main-xxx: #-----;
+  --main-xxxx: #-----;
+}
+
+/* Base reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* box-sizing and font sizing */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+  /* Set font size for easy rem calculations
+   * default document font size = 16px, 1rem = 16px, 100% = 16px
+   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+  */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
