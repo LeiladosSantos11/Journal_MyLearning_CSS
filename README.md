@@ -14,8 +14,11 @@ This article will go deep on pixels and accessibility. I hope you will enjoy it:
 
 https://www.24a11y.com/2019/pixels-vs-relative-units-in-css-why-its-still-a-big-deal/
 
+
+
+
 /************************************************************************************/
-/* Custom properties/variables  */
+Custom properties/variables  
 :root {
   --main-xxxx: #------;
   --main-xxxx: #------;
