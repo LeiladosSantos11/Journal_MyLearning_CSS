@@ -1,4 +1,4 @@
-# Journal_MyLearning_CSS
+# JournalingMyLearning_CSS
 
 When I started learning web development I asked the Bootcamp's teacher: 
 "What was the best to use px, rem or em". 
