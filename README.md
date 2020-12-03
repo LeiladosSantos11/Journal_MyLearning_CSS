@@ -50,3 +50,10 @@ https://www.24a11y.com/2019/pixels-vs-relative-units-in-css-why-its-still-a-big-
    * default document font size = 16px, 1rem = 16px, 100% = 16px
    * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
   */
+
+CSS Course - Kevin Powell:
+- Do NOT set height
+or 
+ - Use min-height
+ 
+ 
